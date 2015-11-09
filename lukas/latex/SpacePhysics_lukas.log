@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  30 OCT 2015 16:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.26)  9 NOV 2015 22:58
 entering extended mode
 **SpacePhysics_lukas.tex
 
@@ -952,7 +952,11 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotereset=\count224
 
 (C:\Users\Lukas\Documents\GitHub\Space_Physics_Project_Sigve_Lukas\lukas\latex\
-SpacePhysics_lukas.aux)
+SpacePhysics_lukas.aux
+
+LaTeX Warning: Label `aurora substorm' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
@@ -975,7 +979,8 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 14.
 LaTeX Font Info:    Try loading font information for FMS+futm on input line 14.
 
- ("C:\Program Files\Miktex\tex\latex\fourier\fmsfutm.fd"
+
+("C:\Program Files\Miktex\tex\latex\fourier\fmsfutm.fd"
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
 LaTeX Font Info:    ... okay on input line 14.
@@ -1110,25 +1115,42 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
  [2]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 28.
- [3] [4]
+ <solvind.jpg, id=10, 579.16376pt x 403.5075pt>
+File: solvind.jpg Graphic file (type jpg)
+
+<use solvind.jpg>
+Package pdftex.def Info: solvind.jpg used on input line 34.
+(pdftex.def)             Requested size: 289.58116pt x 201.75325pt.
+ [3 <C:/Users/Lukas/Documents/GitHub/Space_Physics_Project_Sigve_Lukas/lukas/la
+tex/solvind.jpg>]
+<solvind2.jpg, id=14, 634.37pt x 418.56375pt>
+File: solvind2.jpg Graphic file (type jpg)
+ <use solvind2.jpg>
+Package pdftex.def Info: solvind2.jpg used on input line 64.
+(pdftex.def)             Requested size: 317.18422pt x 209.28136pt.
+ [4 <C:/Users/Lukas/Documents/GitHub/Space_Physics_Project_Sigve_Lukas/lukas/la
+tex/solvind2.jpg>] [5]
 (C:\Users\Lukas\Documents\GitHub\Space_Physics_Project_Sigve_Lukas\lukas\latex\
 SpacePhysics_lukas.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'SpacePhysics_lukas.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 9481 strings out of 493921
- 147225 string characters out of 3148885
- 560254 words of memory out of 3000000
- 12613 multiletter control sequences out of 15000+200000
+ 9493 strings out of 493921
+ 147399 string characters out of 3148885
+ 558301 words of memory out of 3000000
+ 12622 multiletter control sequences out of 15000+200000
  73381 words of font info for 80 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,6n,32p,829b,1493s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,7n,32p,829b,1493s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/Miktex/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/Mi
 ktex/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/Miktex/fonts/type1/a
 dobe/utopia/putr8a.pfb>
-Output written on SpacePhysics_lukas.pdf (4 pages, 42142 bytes).
+Output written on SpacePhysics_lukas.pdf (5 pages, 146609 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
