@@ -1,0 +1,104 @@
+from numpy import *
+import matplotlib.pyplot as p
+
+#filename = eval(raw_input('star('star#.txt'): ))
+filename = 'helios1_daily.dat'
+
+def read_data():							# Function, gathering data from the 
+	file = open(filename,'r')				# files and returning them as arrays, for computing
+	year = []; deciday = []; hour = []; carr_rot_no = [];spcrft_heli_dist = []; helio_init_lat = []; helio_init_long = [];earth_sun_sep_angle = []; BX = []; BY = []; BZ = []; BR = []; BT = []; BN = []; scale_B = []; blk_flo = []; flow_elev = []; flow_azi = []; proton_dens = []; radial_prot_t = [];
+	for line in file:						# For-loop: Go through every line, one by one
+		data = line.split()					# Split line in columns and store in array
+		year.append(float(data[0]))			# Store the values in lists
+		deciday.append(float(data[1]))
+		hour.append(float(data[2]))
+		carr_rot_no.append(float(data[3]))
+		spcrft_heli_dist.append(float(data[4]))	
+		helio_init_lat.append(float(data[5]))	
+		helio_init_long.append(float(data[6]))	
+		earth_sun_sep_angle.append(float(data[7]))	
+		BX.append(float(data[8]))	
+		BY.append(float(data[9]))	
+		BZ.append(float(data[10]))	
+		BR.append(float(data[11]))	
+		BT.append(float(data[12]))	
+		BN.append(float(data[13]))
+		scale_B.append(float(data[14]))	
+		blk_flo.append(float(data[15]))	
+		flow_elev.append(float(data[16]))	
+		flow_azi.append(float(data[17]))	
+		proton_dens.append(float(data[18]))	
+		radial_prot_t.append(float(data[19]))	
+		
+	file.close()
+	year = array(year)						    # Lists are converted to arrays
+	deciday = array(deciday)
+	hour = array(hour)
+	carr_rot_no = array(carr_rot_no)
+	spcrft_heli_dist = array(spcrft_heli_dist)
+	helio_init_lat = array(helio_init_lat)
+	helio_init_long = array(helio_init_long)
+	earth_sun_sep_angle = array(earth_sun_sep_angle)
+	BX = array(BX)
+	BY = array(BY)
+	BZ = array(BZ)
+	BR = array(BR)
+	BT = array(BT)
+	BN = array(BN)
+	scale_B = array(scale_B)
+	blk_flo = array(blk_flo)
+	flow_elev = array(flow_elev)
+	flow_azi = array(flow_azi)
+	proton_dens = array(proton_dens)
+	return year, deciday, hour, carr_rot_no, spcrft_heli_dist, helio_init_lat, helio_init_long, earth_sun_sep_angle, BX,BY,BZ,BR,BT,BN, scale_B, blk_flo, flow_elev, flow_azi, proton_dens, radial_prot_t
+
+
+probe_data = read_data()
+n = len(probe_data[0])
+T = probe_data[19]
+distance = probe_data[4]
+blk_flow = probe_data[15]
+time = arange(n)
+################################################
+
+"""
+p.plot(e, log(T))
+p.show()"""
+
+################################################
+mi = 1.67*10**-27
+kb =1.38*10**-23
+const =(1.38/1.67)*10**4
+cs = zeros(n)
+gamma = 5/3.
+
+for i in range(n):
+    cs[i] = sqrt(gamma*const*T[i])/(10**3)
+
+
+br = probe_data[11]
+brr = br*distance**(3/2)
+p.plot(distance,brr, 'ro')
+p.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
