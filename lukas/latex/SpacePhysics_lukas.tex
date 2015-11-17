@@ -1,16 +1,27 @@
 \documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{subcaption}
 \usepackage{makeidx}
-\usepackage{biblatex}
 \usepackage{graphicx}
 \usepackage{fourier}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \author{Sigve Harang, Lukas Powalla}
 \title{Space Physics Project , FYS3610}
+\graphicspath{{./data/}} %BEEEEE CAREFUL WITH THIS LINE
+\lstset{language=C++,
+	keywordstyle=\bfseries\color{blue},
+	commentstyle=\itshape\color{red},
+	stringstyle=\color{green},
+	identifierstyle=\bfseries,
+	frame=single}
 \begin{document}
 \maketitle
 \newpage
@@ -25,7 +36,7 @@ However, the dungey cycle is as already mentioned a steady state picture. (This 
 However, this cycle is in reality not a steady state picture. There are different phases of adding magnetic flux (growing of the polar cap), some kind of explosive expansion (subtraction of magnetic flux from the polar cap) and a recovery phase. This phenomena is called a "Auroral substorm". In addition to that, we can extract information about what is going on with the system earth-sun by looking at different data sets containing information about the magnetic field on earth, the solar wind bulk speed, the auroral intensity, the current density and further data from different physical measurements. 
 Based on this measurements we will interpret the received data and relate it to the theoretical predictions and the models we introduced in the theoretical part.
 
-\subsection{The Dungey cycle - a steady state picture}
+\subsection{The Dungey cycle - a steady state picture \label{Dungey cycle}}
 
 \begin{figure}[h]
 \centering
@@ -34,8 +45,8 @@ Based on this measurements we will interpret the received data and relate it to 
 \includegraphics[scale=0.5]{solvind.jpg}
 \end{figure}
 
-If the magnetic field is northward orientated nothing happens at the boundary of the terrestrial magnetic field and the magnetic field of the sun/ the solar wind. IMF can not mix with the terrestrial magnetic field because everything in frozen in. Since the terrestrial magnetic field and the IMF are not anti-parallel orientated, magnetic reconnection does not occur and hence, everything is and stays frozen in. 
-However, if the IMF is southward orientated, we do have anti-parallel orientated magnetic field at the boundary of terrestrial magnetic field and the IMF (at the magnetopause). Therefore, magnetic reconnection occurs at the magnetopause, which causes a cyclic reconnection pattern at day/night-side. If we assume a steady state picture, we call the cycle, which happens for southward IMF, the dungey cycle. The different parts of the cycle can be described as follows:
+If the magnetic field is northward orientated ($B_z>0$) nothing happens at the boundary of the terrestrial magnetic field and the magnetic field of the sun/ the solar wind. IMF can not mix with the terrestrial magnetic field because everything in frozen in. Since the terrestrial magnetic field and the IMF are not anti-parallel orientated, magnetic reconnection does not occur and hence, everything is and stays frozen in. 
+However, if the IMF is southward orientated ($B_z<0$), we do have anti-parallel orientated magnetic field at the boundary of terrestrial magnetic field and the IMF (at the magnetopause). Therefore, magnetic reconnection occurs at the magnetopause, which causes a cyclic reconnection pattern at day/night-side. If we assume a steady state picture, we call the cycle, which happens for southward IMF, the dungey cycle. The different parts of the cycle can be described as follows:
 \begin{itemize}
 \item[1] opposite polarity field lines reconnect at magnetopause (if IMF southward orientated
 \item[2] magnetic field lines are still connected to the solar wind. (frozen in again) Therefore, the magnetic field line is draged along with the solar wind in the direction of the tale. (magnetic tension force)
@@ -64,21 +75,216 @@ The night side reconnection continues at smaller rates and the auroral display q
 \includegraphics[scale=0.5]{solvind2.jpg}
 \end{figure}
 
-\subsection{Ionospheric currents}
-\subsubsection{Petersen current, Hall current and Fieldalign currents}
+\subsection{currents}
+In general, we can express the current flow in a given system with given magnetic field and electric field as follows:
+\begin{align}
+\vec{j}&= e n ( \vec{v}_i - \vec{v}_e ) = \sigma_p \vec{E}'_{\perp} + \sigma_H \frac{\vec{E}'_{\perp} \times \vec{B}}{B} + \sigma_{\parallel} \vec{E}_{\parallel}
+\end{align}
+Here, $\sigma_p$ is the Pedersen conductivity, $\sigma_H$ is the Hall conductivity and $\sigma_{\parallel}$ is a conductivity, which belongs to a current parallel to the electric field. We notice that the different currents caused by different conductivities flow in orthogonal directions with respect to each other. The orientation of $\vec{E}$ means parallel or orthogonal to the magnetic field. A discrete expression of the conductivities will not be needed in this report. 
+\begin{align}
+\vec{E}&= \vec{E}_{\perp} +\vec{E}_{\parallel}\\
+\vec{E}'_{\perp}&=\vec{E}_{\perp}+ \vec{v}_n \times \vec{B}\\
+\vec{E}'_{\perp}& \approx \vec{E}_{\perp}
+\end{align}
+The Electron Hall currents flow at lower altitudes than the Pedersen currents. 
+The ionospheric Pedersen currents are connected to the Field aligned currents (FAC). The FAC are on the one hand side closed with the magnetopause current and on the other hand side with the ring current. All current systems need to be closed, which is the case. 
 
 \subsection{Twin cell convection}
+If we look at the Dungey cycle ($B_z<0$), we can figure out the movement of the open/closed field lines at the polar caps, which gives us the movement of the particles at the polar cap. 
+Let us first explain, what leads to the so called "Twin-cell"-convection. If we have southward IMF, the orientation of the IMF and the earth's magnetic field are opposite to each other. Like discussed in chapter \ref{Dungey cycle}, magnetic reconnection on the day side of the earth can occur. The magnetic reconnection at the day side adds open magnetic field lines to the polar cap. In other words, day side reconnection adds magnetic flux to the polar cap. 
+The deformation of the usually round open/closed-field boundary leads to a movement, which tries to "smooth out" the little bump in the boundary. Magnetic field lines naturally want themselves to orientate in a straight line. 
+
+Let us now look at the night side. If we look at the night side events, we know that magnetic reconnection occurs in the tail.(dungey cycle) Reasons for this happening are for example that through day side reconnection, magnetic flux is added to the tail, the magnetic pressure increases and leads in the end to magnetic reconnection in the tail. 
+The magnetic reconnection to the tail closes open magnetic field lines. This means that the polar cap shrinks a bit on the night side. In other words, magnetic flux is subtracted at the night side of the earth from the polar cap. The subtraction leads to a little dint in the polar cap. The magnetic field lines tend to "smooth out" the little dint, which leads to a corresponding movement. 
+
+In total, we expect now a movement, which is well known as the twin cell convection. The electric potential on the poles will give us the movement of the charged particles. The currents move along potential lines. The equipotential lines are therefore the trajectories of the charged particles. The currents are called "Hall"-currents. The hall-currents can be found in an altitude of approximately 110 km. (electro-jets)
+\subsection{Earth- Corotation and Dungey-cycle}
+
 
 \section{Observations}
 
-\subsection{•}
+\subsection{ACE}
+
+\subsection{AMPERE}
+\begin{figure}[h]
+\centering
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere0.png}
+	\caption{ 18:00 o'clock\label{amp18}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere1.png}
+	\caption{19:00 o'clock \label{amp19}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere2.png}
+	\caption{ 20:00 o'clock \label{amp20}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere3.png}
+	\caption{ 21:00 o'clock \label{amp21}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere4.png}
+	\caption{ 22:00 o'clock \label{amp22}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere5.png}
+	\caption{ 23:00 o'clock \label{amp23}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere6.png}
+	\caption{ 00:00 o'clock (next day) \label{amp00}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere7.png}
+	\caption{ 01:00 o'clock \label{amp01}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{ampere8.png}
+	\caption{ 02:00 o'clock \label{amp02}}
+\end{subfigure}
+\caption{Data from AMPERE at different times}
+\end{figure}
+
+
+
+\subsection{Groundbasedmagnetometer}
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{X_gram.jpg}
+	\caption{ Groundbasedmagnetometer x-direction \label{GBM_X}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{Y_gram.jpg}
+	\caption{ Groundbasedmagnetometer y-direction \label{GBM_Y}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{Z_gram.jpg}
+	\caption{  Groundbasedmagnetometer z-direction\label{GBM_Z}}
+\end{subfigure}
+\caption{Data from Groundbasedmagnetometer, different components }
+\end{figure}
+
+
+\subsection{Superdarn}
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{Superdarn1.jpg}
+	\caption{ Superdarn at 18:00 o'clock \label{Super_18}}
+\end{subfigure}
+\caption{data from Superdarn for different times}
+\end{figure}
+
+\subsection{Svalbardimager}
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager5577A.png}
+	\caption{ SvalbardImager for 5577 $\r{A}$ \label{SBI_5_overview}}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager6300A.png}
+	\caption{ SvalbardImager for 6300 $\r{A}$\label{SBI_6_overview}}
+\end{subfigure}
+\caption{Overview over the Svalbard-Imagers}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager5577A18.png}
+	\caption{ SvalbardImager at 18:00 o'clock \label{SBI_5_18}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager5577A19.png}
+	\caption{ SvalbardImager at 19:00 o'clock \label{SBI_5_19}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager5577A20.png}
+	\caption{ SvalbardImager at 20:00 o'clock \label{SBI_5_20}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager5577A21.png}
+	\caption{ SvalbardImager at 21:00 o'clock \label{SBI_5_21}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager5577A22.png}
+	\caption{ SvalbardImager at 22:00 o'clock \label{SBI_5_22}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager5577A23.png}
+	\caption{ SvalbardImager at 23:00 o'clock \label{SBI_5_23}}
+\end{subfigure}
+\caption{Ketograms from the SvalbardImager for $\lambda=5577 \cdot 10^{-10} \mathrm{m}$, different times }
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager6300A18.png}
+	\caption{ SvalbardImager at 18:00 o'clock \label{SBI_6_18}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager6300A19.png}
+	\caption{ SvalbardImager at 19:00 o'clock \label{SBI_6_19}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager6300A20.png}
+	\caption{ SvalbardImager at 20:00 o'clock \label{SBI_6_20}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager6300A21.png}
+	\caption{ SvalbardImager at 21:00 o'clock \label{SBI_6_21}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager6300A22.png}
+	\caption{ SvalbardImager at 22:00 o'clock \label{SBI_6_22}}
+\end{subfigure}
+\begin{subfigure}{0.3\textwidth}
+\centering
+	\includegraphics[width=\textwidth]{SvalbardImager6300A23.png}
+	\caption{ SvalbardImager at 23:00 o'clock \label{SBI_6_23}}
+\end{subfigure}
+\caption{Ketograms from the SvalbardImager for $\lambda=6300 \cdot 10^{-10} \mathrm{m}$, different times }
+\end{figure}
 
 \section{discussion}
 
 \section{conclusion}
 
 
-\section{First section}
  
 
 \end{document}
