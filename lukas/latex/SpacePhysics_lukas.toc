@@ -10,9 +10,9 @@
 \contentsline {subsection}{\numberline {1.5}Earth- Corotation and Dungey-cycle}{5}{subsection.1.5}
 \contentsline {section}{\numberline {2}Observations}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}ACE}{5}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}AMPERE}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Groundbasedmagnetometer}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Superdarn}{5}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Svalbardimager}{5}{subsection.2.5}
-\contentsline {section}{\numberline {3}discussion}{5}{section.3}
-\contentsline {section}{\numberline {4}conclusion}{5}{section.4}
+\contentsline {subsection}{\numberline {2.2}AMPERE}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Groundbasedmagnetometer}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Superdarn}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Svalbardimager}{9}{subsection.2.5}
+\contentsline {section}{\numberline {3}discussion}{9}{section.3}
+\contentsline {section}{\numberline {4}conclusion}{9}{section.4}
