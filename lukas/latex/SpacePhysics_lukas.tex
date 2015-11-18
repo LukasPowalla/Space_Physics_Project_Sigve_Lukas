@@ -28,7 +28,7 @@
 \tableofcontents
 \newpage
 \section*{Introduction}
-In this project we are going to analyse the ionospheric and auroral dynamics and its relation to the solar wind conditions. Furthermore, we will connect our observations to the current systems as well as the auroral activity and polar cap.  We will investigate in a specific timeslot of 24 hours.  
+In this project we are going to analyse the ionospheric and auroral dynamics and its relation to the solar wind conditions. Furthermore, we will connect our observations to the current systems as well as the auroral activity and polar cap.  We will investigate in a specific timeslot of 6 hours.  
 \section{Theory part}
 In order to understand the movements and changes in the system of the earth and the sun, we want to introduce some basic concepts of space physics. 
 A really important steady state picture of what is going on with respect to the earth's magnetic field, the interaction of the earth's magnetic field with the IMF and the consequences of the earth's environment (such as current flows or aurora) is the Dungey cycle. (only when IMF is southward orientated)
@@ -103,18 +103,28 @@ In total, we expect now a movement, which is well known as the twin cell convect
 
 \section{Observations}
 
+All in all, we use five different sources and data to draw an image of what is going on with the interaction of the IMF with the earth's magnetic field. 
+First of all, we use a satellite called ACE (Advanced composition explorer) in order to get knowledge about the magnetic field of the IMF at earth's position. The ACE satellite orbits the Lagrangian point $L_1$. This Lagrangian point sits exactly between the earth and the sun. The solar wind particles move radially outwards from the sun. Therefore, the data from ACE can be used to describe the IMF at earth's position when we take the time into account, which is needed from the solar wind to travel from the position of the ACE to earth. 
+If we take a look at the position of ACE and the solar-wind speed at the position of ACE, we can calculate the time the IMF needs to travel from ACE to earth. 
+Finally, we know what the IMF looks like at earth's position at a given time on earth. 
+This is important because we know from the chapter \ref{Dungey cycle}, that the $B_z$ tells us something about magnetic reconnection on the day side. If $B_z>0$ (or northward IMF orientation), there is no magnetic reconnection on the day side. There is no open magnetic flux added to the polar cap. 
+However, if the $Bz$ component is negative (or southward orientation of IMF) magnetic reconnection on the day side can occur and the dungey cycle kicks in. 
+It is therefore very important to get data from the $B_z$ component of the IMF. The other components of the IMF can be used at a later point to tell something about the specific shape of the twin-cell convection. 
+
+
 \subsection{ACE}
+In this section, we want to discuss the data from the ACE. In figures \ref{ACE Solarwindspeed} and \ref{ACE distance}, we find data from the solarwindspeed and the ACE position. Both together will be used to determine the time delay of the IMF. The coordinate system GSE (Geocentric Solar Ecliptic). If we assume a average velocity of the solar wind (see \ref{ACE Solarwindspeed} $V_x$) of $400 \frac{m}{s}$ and a average distance of $1.4802 \cdot 10^{6} \mathrm{km}$ from ACE to earth, we get a average time delay of 1 hour and $1.7$ minutes. This is the time, the solar wind needs to travel from ACE to earth. 
 
 \begin{figure}[h]
 \centering
 \begin{subfigure}{0.45\textwidth}
 \centering
-	\includegraphics[width=\textwidth]{ACE_distance.png}
-	\caption{ ACE distance in GSE Coordinates\label{ACE distance}}
+	\includegraphics[width=\textwidth]{ACE_distance.pdf}
+	\caption{ ACE distance from earth \label{ACE distance}}
 \end{subfigure}
 \begin{subfigure}{0.45\textwidth}
 \centering
-	\includegraphics[width=\textwidth]{ACE_Solarwindspeed.png}
+	\includegraphics[width=\textwidth]{ACE_solarwindspeed.pdf}
 	\caption{ Solarwind data\label{ACE Solarwindspeed}}
 \end{subfigure}
 \caption{ACE data}
@@ -122,7 +132,7 @@ In total, we expect now a movement, which is well known as the twin cell convect
 
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{ACE_magneticfield.png}
+\includegraphics[width=0.6\textwidth]{ACE_magneticfield.pdf}
 \caption{magnetic field measured at the ACE}
 \end{figure}
 
@@ -345,6 +355,8 @@ In total, we expect now a movement, which is well known as the twin cell convect
 \caption{Ketograms from the SvalbardImager for $\lambda=6300 \cdot 10^{-10} \mathrm{m}$, different times }
 \end{figure}
 
+
+\clearpage
 \section{discussion}
 
 \section{conclusion}
