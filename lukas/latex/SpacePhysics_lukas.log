@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.11.6)  18 NOV 2015 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.11.6)  22 NOV 2015 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1425,7 +1425,7 @@ Here is how much of TeX's memory you used:
  13962 multiletter control sequences out of 15000+600000
  76987 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,58p,657b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,58p,684b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-di
@@ -1433,7 +1433,7 @@ st/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ado
 be/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/pu
 tri8a.pfb>
-Output written on SpacePhysics_lukas.pdf (12 pages, 7747469 bytes).
+Output written on SpacePhysics_lukas.pdf (12 pages, 7747499 bytes).
 PDF statistics:
  258 PDF objects out of 1000 (max. 8388607)
  187 compressed objects within 2 object streams
