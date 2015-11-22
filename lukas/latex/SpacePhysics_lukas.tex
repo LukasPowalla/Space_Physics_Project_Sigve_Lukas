@@ -32,7 +32,7 @@ In this project we are going to analyse the ionospheric and auroral dynamics and
 \section{Theory part}
 In order to understand the movements and changes in the system of the earth and the sun, we want to introduce some basic concepts of space physics. 
 A really important steady state picture of what is going on with respect to the earth's magnetic field, the interaction of the earth's magnetic field with the IMF and the consequences of the earth's environment (such as current flows or aurora) is the Dungey cycle. (only when IMF is southward orientated)
-However, the dungey cycle is as already mentioned a steady state picture. (This means for example that the magnetic flux added to the open magnetic field lines through day side reconnection is equal to the magnetic flux subtracting from the open magnetic field lines through night side reconnection)
+The dungey cycle is as already mentioned a steady state picture. (This means for example that the magnetic flux added to the open magnetic field lines through day side reconnection is equal to the magnetic flux subtracting from the open magnetic field lines through night side reconnection)
 However, this cycle is in reality not a steady state picture. There are different phases of adding magnetic flux (growing of the polar cap), some kind of explosive expansion (subtraction of magnetic flux from the polar cap) and a recovery phase. This phenomena is called a "Auroral substorm". In addition to that, we can extract information about what is going on with the system earth-sun by looking at different data sets containing information about the magnetic field on earth, the solar wind bulk speed, the auroral intensity, the current density and further data from different physical measurements. 
 Based on this measurements we will interpret the received data and relate it to the theoretical predictions and the models we introduced in the theoretical part.
 
@@ -75,7 +75,15 @@ The night side reconnection continues at smaller rates and the auroral display q
 \includegraphics[scale=0.5]{solvind2.jpg}
 \end{figure}
 
-\subsection{currents}
+\subsection{Currents}
+
+When we are dealing with the interaction of the earth's magnetic field with the IMF, it seems to be reasonable to investigate into how the currents close to earth behave. 
+The reason for this is due to the connection of magnetic fields and flowing currents. We know from Maxwell's equations that flowing electric currents cause a magnetic field. In particular,this relation is given by Ampere's law (which follows from Maxwell's equations):
+\begin{align}
+\nabla \times \vec{B}= \mu_0 \cdot \vec{J}
+\end{align} 
+Therefore, we can derive the current flow by looking at the magnetic field. (in particular by looking at the curl of the magnetic field)(see measurement AMPERE)
+
 In general, we can express the current flow in a given system with given magnetic field and electric field as follows:
 \begin{align}
 \vec{j}&= e n ( \vec{v}_i - \vec{v}_e ) = \sigma_p \vec{E}'_{\perp} + \sigma_H \frac{\vec{E}'_{\perp} \times \vec{B}}{B} + \sigma_{\parallel} \vec{E}_{\parallel}
@@ -86,8 +94,22 @@ Here, $\sigma_p$ is the Pedersen conductivity, $\sigma_H$ is the Hall conductivi
 \vec{E}'_{\perp}&=\vec{E}_{\perp}+ \vec{v}_n \times \vec{B}\\
 \vec{E}'_{\perp}& \approx \vec{E}_{\perp}
 \end{align}
-The Electron Hall currents flow at lower altitudes than the Pedersen currents. 
+
+\subsubsection{Earth's current system}
+
+We want to give a short overview about the current system of the earth. We want to limit us on currents, which can actually be measured by the measurements used in this report. 
+The currents, which flow near the polar cap can be described as follows:
+On the polar cap, we find Hall currents, Pedersen currents and Field-aligned currents. 
+The Electron Hall currents flow at lower altitudes than the Pedersen currents. The flow of the Hall currents is also associated with the so called twin cell convection.
 The ionospheric Pedersen currents are connected to the Field aligned currents (FAC). The FAC are on the one hand side closed with the magnetopause current and on the other hand side with the ring current. All current systems need to be closed, which is the case. 
+The current flow on the polar cap can be seen in figure \ref{electric currents on the polar cap}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{polar_electric_currents.jpg}
+\caption{electric currents on the polar cap}
+\label{electric currents on the polar cap}
+\end{figure}
 
 \subsection{Twin cell convection}
 If we look at the Dungey cycle ($B_z<0$), we can figure out the movement of the open/closed field lines at the polar caps, which gives us the movement of the particles at the polar cap. 
