@@ -10,9 +10,9 @@
 \contentsline {subsection}{\numberline {1.4}Twin cell convection}{5}{subsection.1.4}
 \contentsline {section}{\numberline {2}Observations}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}ACE}{6}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Groundbasedmagnetometer}{6}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Superdarn}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.2}Groundbasedmagnetometer}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}SuperDARN}{9}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}AMPERE}{9}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Svalbardimager}{9}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.5}Svalbardimager}{10}{subsection.2.5}
 \contentsline {section}{\numberline {3}discussion}{12}{section.3}
 \contentsline {section}{\numberline {4}conclusion}{12}{section.4}

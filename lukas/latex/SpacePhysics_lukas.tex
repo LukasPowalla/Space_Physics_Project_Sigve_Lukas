@@ -158,21 +158,21 @@ If we take a look at the position of ACE and the solar-wind speed at the positio
 \includegraphics[width=\textwidth]{ACE_magneticfield.pdf}
 \caption{magnetic field measured at the ACE}
 \end{subfigure}
-\begin{subfigure}{0.45\textwidth}
-\centering
-	\includegraphics[width=\textwidth]{ACE_distance.pdf}
-	\caption{ ACE distance from earth \label{ACE distance}}
-\end{subfigure}
 \caption{ACE data}
 \end{figure}
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{ACE_distance.pdf}
+\caption{ ACE distance from earth \label{ACE distance}}
+\end{figure}
 Finally, we know what the IMF looks like at earth's position at a given time on earth. 
 This is important because we know from the chapter \ref{Dungey cycle}, that the $B_z$ tells us something about magnetic reconnection on the day side. If $B_z>0$ (or northward IMF orientation), there is no magnetic reconnection on the day side. There is no open magnetic flux added to the polar cap. 
 However, if the $Bz$ component is negative (or southward orientation of IMF) magnetic reconnection on the day side can occur and the dungey cycle kicks in. 
 It is therefore very important to get data from the $B_z$ component of the IMF. The other components of the IMF can be used at a later point to tell something about the specific shape of the twin-cell convection. In figures \ref{ACE Solarwindspeed} and \ref{ACE distance}, we find data from the solarwindspeed and the ACE position. Both together will be used to determine the time delay of the IMF. The coordinate system GSE (Geocentric Solar Ecliptic). If we assume a average velocity of the solar wind (see \ref{ACE Solarwindspeed} $V_x$) of $400 \frac{m}{s}$ and a average distance of $1.4802 \cdot 10^{6} \mathrm{km}$ from ACE to earth, we get a average time delay of 1 hour and.(range between 55 minutes and 70 minutes) This is the time, the solar wind needs to travel from ACE to earth. 
 
 
-
+\clearpage
 \subsection{Groundbasedmagnetometer}
 
 The Groundbasedmagnetometer we use is a collection of 32 station on the surface of the earth measuring the magnetic field. (by the use of magnetometers) 
@@ -204,9 +204,17 @@ Let us now have a closer look at the data.
 
 In figure \ref{GBM_all in all}, you can see data from IMAGE. The figures \ref{GBM_X}, \ref{GBM_Y} and \ref{GBM_Z} show different orthogonal components of the magnetic field. In figure \ref{GBM_X}, you can see the south- north component of the magnetic field, which is the important component for us. The vertical axis of the plots show the time and the different horizontal lines are the magnetic field components measured at different stations on earth. On the right side, you can see abbreviations of the different stations. Note, that they are ordered concerning their latitude. 
 The first thing, which strikes the eye is that the magnetic field component is mostly constant from 18:00 o'clock until approximately 22:00 o'clock. At approximately 22:00 o'clock (depends on the latitude of the station), we can see fluctuation of the magnetic field component and then a sudden depression of the magnetic field component. 
+This is a strong hint to a sub storm. We can also see a poleward moving of the depression especially for the 8 most northward stations (KEV to NAL). We can also see that the stations MEK to TAR don't measure a depression of the magnetic field. The stations KEV to OUJ measure the depression approximately at the same time. 
+
 \clearpage
 
-\subsection{Superdarn}
+\subsection{SuperDARN}
+
+SuperDARN stands for  Super Dual Auroral Radar Network and this network consists of more than 30 low-power HF radars that look into Earth's upper atmosphere. (from mid-latitudes to polar regions) The radars can among others be used to measure the motion of charged particles in the ionosphere via the Doppler shift effect. (scattering of radiation)
+The motion of the plasma is interesting for us because we know what we expect from the plasma movement. In the ionosphere at approximately 110 km altitude, we expect to see the twin cell convection if the orientation of the IMF is southward. The twin cell convection is therefore related to the dungey cycle. 
+How can we visualize the motion of the hall currents? Unfortunately, we have not a complete data coverage all over the polar cap. Therefore, it seems to be useful to search for another way to visualize the motion of the plasma. 
+The velocity of the hall currents is: $\vec{v}=\frac{\vec{E}\times \vec{B}}{B^2}$ and the formula for the electric potential is: $\vec{E}=-\vec{\nabla} \phi$. It now tuns out that lines of equal potential are perpendicular to the electric field, which is also the case for the hall currents. It can be shown that indeed the electric potential can describe the motion of the hall currents. The currents move then on equal potential lines. 
+We use the data of the Radars (motion of plasma) to make a expansion in spherical harmonics for the electric potential. The plotting of the potential can then be used to describe the plasma flow. 
 
 \begin{figure}[h]
 \centering
