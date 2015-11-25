@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {2.1}ACE}{6}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Groundbasedmagnetometer}{8}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}SuperDARN}{9}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}AMPERE}{9}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Svalbardimager}{10}{subsection.2.5}
-\contentsline {section}{\numberline {3}discussion}{12}{section.3}
-\contentsline {section}{\numberline {4}conclusion}{12}{section.4}
+\contentsline {subsection}{\numberline {2.4}AMPERE}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Svalbardimager}{11}{subsection.2.5}
+\contentsline {section}{\numberline {3}discussion}{13}{section.3}
+\contentsline {section}{\numberline {4}conclusion}{13}{section.4}
