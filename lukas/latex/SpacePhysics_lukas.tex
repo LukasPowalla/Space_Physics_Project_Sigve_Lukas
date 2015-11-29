@@ -28,12 +28,12 @@
 \tableofcontents
 \newpage
 \section*{Introduction}
-In this project we are going to analyse the ionospheric and auroral dynamics and its relation to the solar wind conditions. Furthermore, we will compare our observations to theory. We will investigate in a specific timeslot of 6 hours from the 6. January 2011 from 18:00 o'clock to the 07. January 2011 00:00 o'clock.   
+In this project we are going to analyse the ionospheric and auroral dynamics and its relation to the solar wind conditions. One of the most relevant physical mechanism is magnetic reconnection. We will also investigate in near earth current flows. Currents and magnetic fields are connected with each other through Maxwell's equations and influence each other. Finally, we will compare our observations to theory. We will investigate in a specific timeslot of 6 hours from the 6. January 2011 from 18:00 o'clock to the 07. January 2011 00:00 o'clock.   
 \section{Theory part}
 In order to understand the movements and changes in the system of the earth and the sun, we want to introduce some basic concepts of space physics. 
 A really important steady state picture of what is going on with respect to the earth's magnetic field, the interaction of the earth's magnetic field with the IMF and the consequences of the earth's environment (such as current flows or aurora) is the Dungey cycle. (the Dungey cycle is only valid when the IMF is southward orientated)
 The Dungey cycle is as already mentioned a steady state picture. This means that the magnetic flux added to the open magnetic field lines through day side reconnection is equal to the magnetic flux subtracting from the open magnetic field lines through night side reconnection.
-However, this cycle is in reality not a steady state picture. We observe different phases such as adding magnetic flux (growing of the polar cap), some kind of explosive expansion (subtraction of magnetic flux from the polar cap) and a recovery phase. This phenomena is called a "Auroral substorm". In addition to that, we can extract information about what is going on with the system earth-sun by looking at different data sets containing information about the magnetic field on earth, the solar wind bulk speed, the auroral intensity, the current density and further data from different physical measurements. 
+However, this cycle is in reality in general not a steady state picture. We observe different phases such as adding magnetic flux (growing of the polar cap), some kind of explosive expansion (subtraction of magnetic flux from the polar cap) and a recovery phase. This phenomena is called a "Auroral substorm". In addition to that, we can extract information about what is going on with the system earth-sun by looking at different data sets containing information about the magnetic field on earth, the solar wind bulk speed, the auroral intensity, the current density and further data from different physical measurements. 
 Based on this measurements we will interpret the received data and relate it to the theoretical predictions and the models we introduced in the theoretical part.
 
 \subsection{The Dungey cycle - a steady state picture \label{_CHAP_THEO_Dungey cycle}}
@@ -97,6 +97,8 @@ Here, $\sigma_p$ is the Pedersen conductivity, $\sigma_H$ is the Hall conductivi
 
 \subsubsection{Earth's current system \label{_CHAP_THEO_currentsystem earth}}
 
+The magnetic field of the terrestrial magnetosphere is produced by superposition of magnetic fields from a variety of sources.\cite{Buch2}[p.400]
+Near the earth's surface, the biggest contribution comes from the currents within the earth's liquid core. However, electric currents like the solar dynamo, the equatorial electrojet, the convection electrojets and the sub storm electrojets play also an important role. \cite{Buch2}[p.400]. 
 We want to give a short overview about the current system of the earth. We want to limit us on currents, which can actually be measured by the measurements used in this report. 
 The currents, which flow near the polar cap can be described as follows:
 On the polar cap, we find Hall currents, Pedersen currents and Field-aligned currents. 
@@ -204,7 +206,7 @@ Let us now have a closer look at the data.
 \end{figure}
 
 In figure \ref{GBM_all in all}, you can see data from IMAGE. The figures \ref{GBM_X}, \ref{GBM_Y} and \ref{GBM_Z} show different orthogonal components of the magnetic field. In figure \ref{GBM_X}, you can see the south- north component of the magnetic field, which is the important component for us. The vertical axis of the plots show the time and the different horizontal lines are the magnetic field components measured at different stations on earth. On the right side, you can see abbreviations of the different stations. Note, that they are ordered concerning their latitude. \\
-The first thing, which strikes the eye is that the magnetic field component is mostly constant from 18:00 o'clock until approximately 22:00 o'clock. At approximately 22:00 o'clock (depends on the latitude of the station), we can see fluctuation of the magnetic field component and then a sudden depression of the magnetic field component. 
+The first thing, which strikes the eye is that the magnetic field component is mostly constant from 18:00 o'clock until approximately 22:00 o'clock. At approximately 22:00 o'clock (depends on the latitude of the station), we can see fluctuation of the magnetic field component and then a sudden depression of the magnetic field component. The first minimum of the measured magnetic field can be seen between 22:30 and 23:00 o'clock.
 This is a hint to a sub storm.(see chapter \ref{discussion} ) We can also see a poleward moving of the depression especially for the 8 most northward stations (KEV to NAL). We can also see that the stations MEK to TAR don't measure a depression of the magnetic field. The stations KEV to OUJ measure the depression approximately at the same time. 
 
 \clearpage
@@ -361,7 +363,7 @@ This basic structure can also be seen at 23 o'clock and at 00 o'clock.(see figur
 
 \subsection{Svalbard All-Sky Imager \label{0_CHAPTER_SVALBARDIM}}
 
-The Svalbard All-Sky Imager measures the intensity of two different wavelength all aver the sky. Every pixel represents a small part of the sky. We look at two different wavelength($\lambda_1=630 nm, \lambda_2= 557.7 nm$). The reason for this is that we want to have a look at the most important constituents of the northern lights. $\lambda_1$ belongs to the relaxation from the 1D orbital to the 3p orbital of atomic oxygen and $\lambda_2$ belongs to the relaxation from the 1s orbital to the 1D orbital. We have different images for each of this wavelength. 
+The Svalbard All-Sky Imager measures the intensity of two different wavelength all aver the sky. Every pixel represents a small part of the sky. We look at two different wavelength($\lambda_1=630 nm, \lambda_2= 557.7 nm$). The reason for this is that we want to have a look at the most important constituents of the northern lights. $\lambda_1$ belongs to the relaxation from the 1D orbital to the 3p orbital of atomic oxygen and $\lambda_2$ belongs to the relaxation from the 1s orbital to the 1D orbital. We have different images for each of this wavelength. (compare reference \cite{Buch2}[p.469f] )
 in order to visualize the time-development of the intensity of this light, it is convenient to use a so called keogram. 
 A keogram takes a slice of each image at each time  step and adds the different slices together in order to have a time evolution of exact one longitude. Longitudinal movements are easily to detect in keograms, however for the exact latitudinal movements one should check the full images. 
 In the images, red areas represent relatively high intensity of the specific wavelength and black relatively low intensity. We should keep in mind that the intensities are rescaled for every picture in order to have a better visualization. 
@@ -467,28 +469,33 @@ In this section, we want to explain our observations. We will also try to connec
 It is also very interesting to see, whether the data from the different measurements can be interpreted in a sense-full, physical way.
 %ACE- discussion
 
-The dungey cycle, auroral sub storms and the twin-cell connection are all dependent on the IMF. Especially the sign of the $B_z$-component is really important because it determines, whether magnetic reconnection occurs or not. (compare \ref{_CHAP_THEO_Dungey cycle}) Therefore, it makes sense to look first at the data from ACE. If we assume that the solar wind needs on average 1 hour to travel from ACE to earth, we can say that the $B_z$-component is positive from 19 o'clock to 22:15 o'clock at earth's position. At approximately 22:15, the negative-turn of $B_z$ should reach the earth. 
+The dungey cycle, auroral sub storms and the twin-cell connection are all dependent on the IMF. Especially the sign of the $B_z$-component is really important because it determines, whether magnetic reconnection occurs or not. (compare \ref{_CHAP_THEO_Dungey cycle}) Therefore, it makes sense to look first at the data from ACE. If we assume that the solar wind needs on average 1 hour to travel from ACE to earth, we can say that the $B_z$-component is positive from 19 o'clock to 21:15 o'clock at earth's position. At approximately 21:15, the negative-turn of $B_z$ should reach the earth. 
 While the $B_z$ component is negative, we expect that magnetic reconnection on day side kicks in. When magnetic reconnection on day side occurs, open magnetic flux is added to the polar cap. If magnetic reconnection on night side doesn't take place, the polar cap should grow. 
 Southward orientation of the IMF is needed in order to have a so called groth phase of a sub storm. 
-On average, we observed a southward orientation of the magnetic field until 01:45 o'clock of the 7th of January 2011. 
+On average, we observed a southward orientation of the magnetic field until 01:45 o'clock of the 7th of January 2011. However, we can see a sudden peak in the $B_z$ component at 22:20 o'clock at earth's place. 
 %Groundbasedmagnetometer- discussion
 
 Next, we want to know whether we have any hints to a sub storm. A good method to get knowledge about whether a sub storm takes place or not is to look at the data from the ground-based-magnetometers. A sub storm leads in general to westward electro-jets, which lead to a magnetic field according to Amperes rule. In the end, if a sub storm kicks in, this leads to a depression of the south-north component of the magnetic field measured on earth. 
-We now have a look at the data from \ref{0_CHAPTER_AMPERE}. As described there, we can see a depression of the south-nord component of the magnetic field at approximately 22 o'clock. This depression is a strong hint to a sub storm kicking in at approximately 22 o'clock.
+We now have a look at the data from \ref{0_CHAPTER_AMPERE}. As described there, we can see a depression of the south-nord component of the magnetic field at approximately 22 o'clock. The depression reaches a minimum at approximately 22:30 o'clock. (depending on the station) This depression is a strong hint to a sub storm kicking in between 22 o'clock and 23 o'clock.
 % KOMENTAR: Not finished yet
 
 % Superdarn
 Furthermore, we want to have a look at the data from SuperDARN. (see chapter \ref{0_CHAPTER_SUPERDARN})
 We notice, that the shape of the electric potential fits to the theoretical predictions from theory. We can see two cells, which can be characterised through a region with negative electric potential (blue) and a region with positive electric potential (red). In the region with negative electric potential, the charged particles move clockwise and in the positive region the particles move anti-clockwise. 
-Also the orientation of the two cells fits. The direction to the sun is in the figures \ref{Super_overview} at 12 o'clock. (referring to a watch for defining direction with 12 o'clock on top) The twin cells should be separated by a line from approximately 6 o'clock to 12 o 'clock. This depends also on the components of the IMF. The orientation of the twin cells seems to be right.   All in all, we can say that the theory matches the experimental data. 
-We can see that the size of the polar cap (which is defined as the region, where we have open magnetic flux) variates with time as well as the size of the twin ell convection. From 18:00 o'clock (see figure \ref{Super_18}) to approximately 22:00 o'clock, we can see that the twin cell stays at hight latitude. The polar cap seems to be small. The magnetic flux through the polar cap variates from $\phi_{pc}=31 k V$ to $\phi_{pc}=41$. 
+Also the orientation of the two cells fits. The direction to the sun is in the figures \ref{Super_overview} at 12 o'clock. (referring to a watch for defining direction with 12 o'clock on top) The twin cells should be separated by a line from approximately 6 o'clock to 12 o 'clock.(directions) This depends also on the components of the IMF. The orientation of the twin cells seems to be right.  
 
+Looking at the time development of the electric field, we can now connect the increase of the electric potential from 21 to 22 o'clock with other physical phenomena. From section \ref{0_CHAPTER_ACE}, we know that the negative turn of the $B_z$ component of the IMF is at about 21:45 o'clock on earth. A southward IMF results in magnetic reconnection on day side. Magnetic reconnection on day side is directly couplet to the twin cell convection. Twin cell convection increases. This is exactly what we can see in the data. From the Groundbasedmagnetometer, we got a strong  hint of an auroral sub storm kicking in between 22:00 o'clock and 23:00 o'clock. Sub storms decrease the total magnetic flux in the polar cap. We can see that from 22 o 'clock to 23 o'clock, that $\phi_{pc}$ stays approximately constant. 
+All in all, we can say that the theory matches the experimental data concerning this measurement. 
 %KOMENTAR: Not finished yet
 
 % Ampere discussion
-
+We want now to discuss the data from the Measurement AMPERE.(observations described in chapter \ref{0_CHAPTER_AMPERE}) The  curl of the magnetic field measured parallel to the surface of the earth determines the current flow perpendicular to the surface to the earth. 
+The qualitatively development of the measurend currents from section \ref{0_CHAPTER_AMPERE} ca be explained through...
+%KOMENTAR: What determines the strength of the Field aligned currents?
 
 % Svalbardimager- discussion
+Finally, let us look at the Svalbard-imager. The first significant development in the imager can be seen at approximately 22:35 o'clock. A small brightened area moves equator-ward and westward and at 22:45 o'clock, we can see an increase of intensity of both wavelength for lower latitudes. This seems to be the first sub storm detected in this night. The time of the sub storm seems to be reasonable. In the time before the substorm, we know from the data from ACE that the $B_z$ component on the IMF was negative from 22:15 o'clock on. In this time, energy could be stored in the magnetic tail of the earth by adding magnetic flux. From reference \cite{Buch2}[p.419, Fig. 13.14.], we know that "sudden changes in the solar-wind dynamic pressure and, more frequently, northward turnings of the IMF can trigger the sudden unloading of stored energy". At approximately 22:20, the IMF-$B_z$-component on earth turns suddenly northward and southward again. It is possible that this sudden change triggered the onset on the sub storm. 
+In the time after 23:00 o'clock, we can see several timeslots of each 5-10 minutes, where we measure high intensity of lightening. One peaks around 23:15 o'clock, one peaks at 23:30 and the last one peaks about 0:00 o'clock. In between, we an see significant less intensity. This can be interpreted as several sub storms. 
 
 \section{conclusion}
 
@@ -496,8 +503,7 @@ We can see that the size of the polar cap (which is defined as the region, where
 
 
 \newpage
-How to cite with "zusatz":
-\cite[page 123]{Link2}
+
 
 
 
