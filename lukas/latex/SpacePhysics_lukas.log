@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.11.6)  29 NOV 2015 20:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.11.6)  1 DEC 2015 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,11 +864,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-(./SpacePhysics_lukas.aux
-
-LaTeX Warning: Label `aurora substorm' multiply defined.
-
-)
+(./SpacePhysics_lukas.aux)
 \openout1 = `SpacePhysics_lukas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -886,7 +882,8 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 25.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 25.
 
- (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 25.
@@ -1061,422 +1058,401 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
  [2]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 39.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 48.
 
-<solvind.jpg, id=106, 579.16376pt x 403.5075pt>
+<solvind.jpg, id=108, 579.16376pt x 403.5075pt>
 File: solvind.jpg Graphic file (type jpg)
  <use solvind.jpg>
-Package pdftex.def Info: solvind.jpg used on input line 45.
+Package pdftex.def Info: solvind.jpg used on input line 54.
 (pdftex.def)             Requested size: 289.58116pt x 201.75325pt.
- [3 <./solvind.jpg>] <solvind2.jpg, id=115, 634.37pt x 418.56375pt>
+ [3 <./solvind.jpg>] <solvind2.jpg, id=119, 634.37pt x 418.56375pt>
 File: solvind2.jpg Graphic file (type jpg)
  <use solvind2.jpg>
-Package pdftex.def Info: solvind2.jpg used on input line 75.
+Package pdftex.def Info: solvind2.jpg used on input line 92.
 (pdftex.def)             Requested size: 317.18422pt x 209.28136pt.
-
-[4 <./solvind2.jpg>]
-<polar_electric_currents.jpg, id=124, 501.875pt x 353.32pt>
-File: polar_electric_currents.jpg Graphic file (type jpg)
-
-<use polar_electric_currents.jpg>
-Package pdftex.def Info: polar_electric_currents.jpg used on input line 113.
-(pdftex.def)             Requested size: 241.84843pt x 170.26558pt.
- [5 <./polar_electric_currents.jpg>]
-<ACEposition.jpg, id=142, 2753.28625pt x 2409.0pt>
-File: ACEposition.jpg Graphic file (type jpg)
- <use ACEposition.jpg>
-Package pdftex.def Info: ACEposition.jpg used on input line 144.
-(pdftex.def)             Requested size: 165.19005pt x 144.53377pt.
-
-<./data/ACE_solarwindspeed.pdf, id=146, 612.2875pt x 710.655pt>
-File: ./data/ACE_solarwindspeed.pdf Graphic file (type pdf)
-
-<use ./data/ACE_solarwindspeed.pdf>
-Package pdftex.def Info: ./data/ACE_solarwindspeed.pdf used on input line 156.
-(pdftex.def)             Requested size: 217.66211pt x 252.62585pt.
-
-<./data/ACE_magneticfield.pdf, id=147, 612.2875pt x 568.1225pt>
-File: ./data/ACE_magneticfield.pdf Graphic file (type pdf)
-
-<use ./data/ACE_magneticfield.pdf>
-Package pdftex.def Info: ./data/ACE_magneticfield.pdf used on input line 161.
-(pdftex.def)             Requested size: 217.66211pt x 201.95796pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./data/ACE_distance.pdf, id=148, 612.2875pt x 284.06125pt>
+[4] [5 <./solvind2.jpg>]
+<polar_electric_currents.jpg, id=142, 501.875pt x 353.32pt>
+File: polar_electric_currents.jpg Graphic file (type jpg)
+
+<use polar_electric_currents.jpg>
+Package pdftex.def Info: polar_electric_currents.jpg used on input line 136.
+(pdftex.def)             Requested size: 241.84843pt x 170.26558pt.
+
+<ACEposition.jpg, id=146, 2753.28625pt x 2409.0pt>
+File: ACEposition.jpg Graphic file (type jpg)
+ <use ACEposition.jpg>
+Package pdftex.def Info: ACEposition.jpg used on input line 173.
+(pdftex.def)             Requested size: 165.19005pt x 144.53377pt.
+
+[6 <./polar_electric_currents.jpg>]
+<./data/ACE_solarwindspeed.pdf, id=157, 612.2875pt x 710.655pt>
+File: ./data/ACE_solarwindspeed.pdf Graphic file (type pdf)
+
+<use ./data/ACE_solarwindspeed.pdf>
+Package pdftex.def Info: ./data/ACE_solarwindspeed.pdf used on input line 186.
+(pdftex.def)             Requested size: 217.66211pt x 252.62585pt.
+
+<./data/ACE_magneticfield.pdf, id=158, 612.2875pt x 568.1225pt>
+File: ./data/ACE_magneticfield.pdf Graphic file (type pdf)
+
+<use ./data/ACE_magneticfield.pdf>
+Package pdftex.def Info: ./data/ACE_magneticfield.pdf used on input line 191.
+(pdftex.def)             Requested size: 217.66211pt x 201.95796pt.
+
+<./data/ACE_distance.pdf, id=159, 612.2875pt x 284.06125pt>
 File: ./data/ACE_distance.pdf Graphic file (type pdf)
 
 <use ./data/ACE_distance.pdf>
-Package pdftex.def Info: ./data/ACE_distance.pdf used on input line 169.
+Package pdftex.def Info: ./data/ACE_distance.pdf used on input line 199.
 (pdftex.def)             Requested size: 241.84843pt x 112.20078pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `Dungey cycle' on page 6 undefined on input line 173.
-
-[6 <./ACEposition.jpg>] [7 <./data/ACE_solarwindspeed.pdf> <./data/ACE_magnetic
-field.pdf> <./data/ACE_distance.pdf>]
-<./data/X_gram.jpg, id=172, 132.495pt x 186.44656pt>
+[7 <./ACEposition.jpg> <./data/ACE_solarwindspeed.pdf> <./data/ACE_magneticfiel
+d.pdf>] <./data/X_gram.jpg, id=177, 132.495pt x 186.44656pt>
 File: ./data/X_gram.jpg Graphic file (type jpg)
- <use ./data/X_gram.jpg>
-Package pdftex.def Info: ./data/X_gram.jpg used on input line 192.
+
+<use ./data/X_gram.jpg>
+Package pdftex.def Info: ./data/X_gram.jpg used on input line 228.
 (pdftex.def)             Requested size: 145.11053pt x 204.21274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
 []\T1/futs/m/n/9 (a) |Ground-based-mag-ne-tome-ter x-
  []
 
-<./data/Y_gram.jpg, id=173, 132.495pt x 186.44656pt>
+<./data/Y_gram.jpg, id=178, 132.495pt x 186.44656pt>
 File: ./data/Y_gram.jpg Graphic file (type jpg)
  <use ./data/Y_gram.jpg>
-Package pdftex.def Info: ./data/Y_gram.jpg used on input line 197.
+Package pdftex.def Info: ./data/Y_gram.jpg used on input line 233.
 (pdftex.def)             Requested size: 145.11053pt x 204.21274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 []\T1/futs/m/n/9 (b) |Ground-based-mag-ne-tome-ter y-
  []
 
-<./data/Z_gram.jpg, id=174, 132.495pt x 186.44656pt>
+<./data/Z_gram.jpg, id=179, 132.495pt x 186.44656pt>
 File: ./data/Z_gram.jpg Graphic file (type jpg)
  <use ./data/Z_gram.jpg>
-Package pdftex.def Info: ./data/Z_gram.jpg used on input line 202.
+Package pdftex.def Info: ./data/Z_gram.jpg used on input line 238.
 (pdftex.def)             Requested size: 145.11053pt x 204.21274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
 []\T1/futs/m/n/9 (c) |Ground-based-mag-ne-tome-ter z-
  []
 
-[8
-
- <./data/X_gram.jpg> <./data/Y_gram.jpg> <./data/Z_gram.jpg>]
-<./data/Superdarn1.jpg, id=186, 192.72pt x 161.1621pt>
+[8 <./data/ACE_distance.pdf> <./data/X_gram.jpg> <./data/Y_gram.jpg> <./data/Z_
+gram.jpg>] <./data/Superdarn1.jpg, id=193, 192.72pt x 161.1621pt>
 File: ./data/Superdarn1.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn1.jpg>
-Package pdftex.def Info: ./data/Superdarn1.jpg used on input line 227.
+Package pdftex.def Info: ./data/Superdarn1.jpg used on input line 269.
 (pdftex.def)             Requested size: 145.11053pt x 121.34834pt.
 
-<./data/Superdarn2.jpg, id=187, 192.72pt x 161.1621pt>
+<./data/Superdarn2.jpg, id=194, 192.72pt x 161.1621pt>
 File: ./data/Superdarn2.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn2.jpg>
-Package pdftex.def Info: ./data/Superdarn2.jpg used on input line 232.
+Package pdftex.def Info: ./data/Superdarn2.jpg used on input line 274.
 (pdftex.def)             Requested size: 145.11053pt x 121.34834pt.
 
-<./data/Superdarn3.jpg, id=188, 192.72pt x 161.1621pt>
+<./data/Superdarn3.jpg, id=195, 192.72pt x 161.1621pt>
 File: ./data/Superdarn3.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn3.jpg>
-Package pdftex.def Info: ./data/Superdarn3.jpg used on input line 237.
+Package pdftex.def Info: ./data/Superdarn3.jpg used on input line 279.
 (pdftex.def)             Requested size: 145.11053pt x 121.34834pt.
 
-<./data/Superdarn4.jpg, id=189, 192.72pt x 159.9576pt>
+<./data/Superdarn4.jpg, id=196, 192.72pt x 159.9576pt>
 File: ./data/Superdarn4.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn4.jpg>
-Package pdftex.def Info: ./data/Superdarn4.jpg used on input line 242.
+Package pdftex.def Info: ./data/Superdarn4.jpg used on input line 284.
 (pdftex.def)             Requested size: 145.11053pt x 120.44139pt.
 
-<./data/Superdarn5.jpg, id=190, 192.72pt x 159.9576pt>
+<./data/Superdarn5.jpg, id=197, 192.72pt x 159.9576pt>
 File: ./data/Superdarn5.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn5.jpg>
-Package pdftex.def Info: ./data/Superdarn5.jpg used on input line 247.
+Package pdftex.def Info: ./data/Superdarn5.jpg used on input line 289.
 (pdftex.def)             Requested size: 145.11053pt x 120.44139pt.
 
-<./data/Superdarn6.jpg, id=191, 192.72pt x 159.9576pt>
+<./data/Superdarn6.jpg, id=198, 192.72pt x 159.9576pt>
 File: ./data/Superdarn6.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn6.jpg>
-Package pdftex.def Info: ./data/Superdarn6.jpg used on input line 252.
+Package pdftex.def Info: ./data/Superdarn6.jpg used on input line 294.
 (pdftex.def)             Requested size: 145.11053pt x 120.44139pt.
 
-<./data/Superdarn7.jpg, id=192, 192.72pt x 159.9576pt>
+<./data/Superdarn7.jpg, id=199, 192.72pt x 159.9576pt>
 File: ./data/Superdarn7.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn7.jpg>
-Package pdftex.def Info: ./data/Superdarn7.jpg used on input line 257.
+Package pdftex.def Info: ./data/Superdarn7.jpg used on input line 299.
 (pdftex.def)             Requested size: 145.11053pt x 120.44139pt.
 
-<./data/Superdarn8.jpg, id=193, 192.72pt x 159.9576pt>
+<./data/Superdarn8.jpg, id=200, 192.72pt x 159.9576pt>
 File: ./data/Superdarn8.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn8.jpg>
-Package pdftex.def Info: ./data/Superdarn8.jpg used on input line 262.
+Package pdftex.def Info: ./data/Superdarn8.jpg used on input line 304.
 (pdftex.def)             Requested size: 145.11053pt x 120.44139pt.
 
-<./data/Superdarn14.jpg, id=194, 192.72pt x 161.1621pt>
+<./data/Superdarn14.jpg, id=201, 192.72pt x 161.1621pt>
 File: ./data/Superdarn14.jpg Graphic file (type jpg)
 
 <use ./data/Superdarn14.jpg>
-Package pdftex.def Info: ./data/Superdarn14.jpg used on input line 267.
+Package pdftex.def Info: ./data/Superdarn14.jpg used on input line 309.
 (pdftex.def)             Requested size: 145.11053pt x 121.34834pt.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 278.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 322.
 
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 278
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 322
 .
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 278.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 322.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 323.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 323.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 324.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 324.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 325.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 325.
 
 [9
 
  <./data/Superdarn1.jpg> <./data/Superdarn2.jpg> <./data/Superdarn3.jpg> <./dat
 a/Superdarn4.jpg> <./data/Superdarn5.jpg> <./data/Superdarn6.jpg> <./data/Super
 darn7.jpg> <./data/Superdarn8.jpg> <./data/Superdarn14.jpg>]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 280.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 280.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 282.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 282.
-
-<./data/summary_better_exp.pdf, id=208, 642.4pt x 642.4pt>
+<./data/summary_better_exp.pdf, id=215, 642.4pt x 642.4pt>
 File: ./data/summary_better_exp.pdf Graphic file (type pdf)
 
 <use ./data/summary_better_exp.pdf>
-Package pdftex.def Info: ./data/summary_better_exp.pdf used on input line 299.
+Package pdftex.def Info: ./data/summary_better_exp.pdf used on input line 346.
 (pdftex.def)             Requested size: 192.72148pt x 192.72148pt.
 
-<./data/ampere0.png, id=217, 642.4pt x 642.4pt>
+<./data/ampere0.png, id=224, 642.4pt x 642.4pt>
 File: ./data/ampere0.png Graphic file (type png)
  <use ./data/ampere0.png>
-Package pdftex.def Info: ./data/ampere0.png used on input line 317.
+Package pdftex.def Info: ./data/ampere0.png used on input line 368.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-<./data/ampere1.png, id=219, 642.4pt x 642.4pt>
+<./data/ampere1.png, id=226, 642.4pt x 642.4pt>
 File: ./data/ampere1.png Graphic file (type png)
  <use ./data/ampere1.png>
-Package pdftex.def Info: ./data/ampere1.png used on input line 322.
+Package pdftex.def Info: ./data/ampere1.png used on input line 373.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-<./data/ampere2.png, id=220, 642.4pt x 642.4pt>
+<./data/ampere2.png, id=227, 642.4pt x 642.4pt>
 File: ./data/ampere2.png Graphic file (type png)
  <use ./data/ampere2.png>
-Package pdftex.def Info: ./data/ampere2.png used on input line 327.
+Package pdftex.def Info: ./data/ampere2.png used on input line 378.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-<./data/ampere3.png, id=221, 642.4pt x 642.4pt>
+<./data/ampere3.png, id=228, 642.4pt x 642.4pt>
 File: ./data/ampere3.png Graphic file (type png)
  <use ./data/ampere3.png>
-Package pdftex.def Info: ./data/ampere3.png used on input line 332.
+Package pdftex.def Info: ./data/ampere3.png used on input line 383.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-<./data/ampere4.png, id=222, 642.4pt x 642.4pt>
+<./data/ampere4.png, id=229, 642.4pt x 642.4pt>
 File: ./data/ampere4.png Graphic file (type png)
  <use ./data/ampere4.png>
-Package pdftex.def Info: ./data/ampere4.png used on input line 337.
+Package pdftex.def Info: ./data/ampere4.png used on input line 388.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-<./data/ampere5.png, id=223, 642.4pt x 642.4pt>
+<./data/ampere5.png, id=230, 642.4pt x 642.4pt>
 File: ./data/ampere5.png Graphic file (type png)
  <use ./data/ampere5.png>
-Package pdftex.def Info: ./data/ampere5.png used on input line 342.
+Package pdftex.def Info: ./data/ampere5.png used on input line 393.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-<./data/ampere6.png, id=224, 642.4pt x 642.4pt>
+<./data/ampere6.png, id=231, 642.4pt x 642.4pt>
 File: ./data/ampere6.png Graphic file (type png)
  <use ./data/ampere6.png>
-Package pdftex.def Info: ./data/ampere6.png used on input line 347.
+Package pdftex.def Info: ./data/ampere6.png used on input line 398.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-<./data/ampere7.png, id=225, 642.4pt x 642.4pt>
+<./data/ampere7.png, id=232, 642.4pt x 642.4pt>
 File: ./data/ampere7.png Graphic file (type png)
  <use ./data/ampere7.png>
-Package pdftex.def Info: ./data/ampere7.png used on input line 352.
+Package pdftex.def Info: ./data/ampere7.png used on input line 403.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-<./data/ampere8.png, id=226, 642.4pt x 642.4pt>
+<./data/ampere8.png, id=233, 642.4pt x 642.4pt>
 File: ./data/ampere8.png Graphic file (type png)
  <use ./data/ampere8.png>
-Package pdftex.def Info: ./data/ampere8.png used on input line 357.
+Package pdftex.def Info: ./data/ampere8.png used on input line 408.
 (pdftex.def)             Requested size: 145.11053pt x 145.11209pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10 <./data/summary_better_exp.pdf>]
-<./data/SvalbardImager5577A.png, id=263, 1606.0pt x 1003.75pt>
+[10 <./data/summary_better_exp.pdf>] [11 <./data/ampere0.png> <./data/ampere1.p
+ng> <./data/ampere2.png> <./data/ampere3.png> <./data/ampere4.png> <./data/ampe
+re5.png> <./data/ampere6.png> <./data/ampere7.png> <./data/ampere8.png>]
+<./data/SvalbardImager5577A.png, id=284, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager5577A.png Graphic file (type png)
 
 <use ./data/SvalbardImager5577A.png>
-Package pdftex.def Info: ./data/SvalbardImager5577A.png used on input line 379.
+Package pdftex.def Info: ./data/SvalbardImager5577A.png used on input line 435.
 
 (pdftex.def)             Requested size: 217.66211pt x 136.03645pt.
 
-
-LaTeX Warning: Command \r invalid in math mode on input line 380.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 380.
-
-<./data/SvalbardImager6300A.png, id=264, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager6300A.png, id=285, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager6300A.png Graphic file (type png)
 
 <use ./data/SvalbardImager6300A.png>
-Package pdftex.def Info: ./data/SvalbardImager6300A.png used on input line 384.
+Package pdftex.def Info: ./data/SvalbardImager6300A.png used on input line 440.
 
 (pdftex.def)             Requested size: 217.66211pt x 136.03645pt.
 
-
-LaTeX Warning: Command \r invalid in math mode on input line 385.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 385.
-
-[11 <./data/ampere0.png> <./data/ampere1.png> <./data/ampere2.png> <./data/ampe
-re3.png> <./data/ampere4.png> <./data/ampere5.png> <./data/ampere6.png> <./data
-/ampere7.png> <./data/ampere8.png>]
-<./data/SvalbardImager5577A18.png, id=283, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager5577A18.png, id=290, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager5577A18.png Graphic file (type png)
 
 <use ./data/SvalbardImager5577A18.png>
-Package pdftex.def Info: ./data/SvalbardImager5577A18.png used on input line 39
-7.
+Package pdftex.def Info: ./data/SvalbardImager5577A18.png used on input line 45
+5.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager5577A19.png, id=284, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager5577A19.png, id=291, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager5577A19.png Graphic file (type png)
 
 <use ./data/SvalbardImager5577A19.png>
-Package pdftex.def Info: ./data/SvalbardImager5577A19.png used on input line 40
-2.
+Package pdftex.def Info: ./data/SvalbardImager5577A19.png used on input line 46
+0.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager5577A20.png, id=285, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager5577A20.png, id=292, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager5577A20.png Graphic file (type png)
 
 <use ./data/SvalbardImager5577A20.png>
-Package pdftex.def Info: ./data/SvalbardImager5577A20.png used on input line 40
-7.
+Package pdftex.def Info: ./data/SvalbardImager5577A20.png used on input line 46
+5.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager5577A21.png, id=286, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager5577A21.png, id=293, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager5577A21.png Graphic file (type png)
 
 <use ./data/SvalbardImager5577A21.png>
-Package pdftex.def Info: ./data/SvalbardImager5577A21.png used on input line 41
-2.
+Package pdftex.def Info: ./data/SvalbardImager5577A21.png used on input line 47
+0.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager5577A22.png, id=287, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager5577A22.png, id=294, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager5577A22.png Graphic file (type png)
 
 <use ./data/SvalbardImager5577A22.png>
-Package pdftex.def Info: ./data/SvalbardImager5577A22.png used on input line 41
-7.
+Package pdftex.def Info: ./data/SvalbardImager5577A22.png used on input line 47
+5.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager5577A23.png, id=288, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager5577A23.png, id=295, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager5577A23.png Graphic file (type png)
 
 <use ./data/SvalbardImager5577A23.png>
-Package pdftex.def Info: ./data/SvalbardImager5577A23.png used on input line 42
-2.
+Package pdftex.def Info: ./data/SvalbardImager5577A23.png used on input line 48
+0.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
  [12 <./data/SvalbardImager5577A.png> <./data/SvalbardImager6300A.png> <./data/
 SvalbardImager5577A18.png> <./data/SvalbardImager5577A19.png> <./data/SvalbardI
 mager5577A20.png> <./data/SvalbardImager5577A21.png> <./data/SvalbardImager5577
 A22.png> <./data/SvalbardImager5577A23.png>] [13
 
-] <./data/SvalbardImager6300A18.png, id=311, 1606.0pt x 1003.75pt>
+] [14] <./data/SvalbardImager6300A18.png, id=323, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager6300A18.png Graphic file (type png)
 
 <use ./data/SvalbardImager6300A18.png>
-Package pdftex.def Info: ./data/SvalbardImager6300A18.png used on input line 47
-9.
+Package pdftex.def Info: ./data/SvalbardImager6300A18.png used on input line 55
+1.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager6300A19.png, id=312, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager6300A19.png, id=324, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager6300A19.png Graphic file (type png)
 
 <use ./data/SvalbardImager6300A19.png>
-Package pdftex.def Info: ./data/SvalbardImager6300A19.png used on input line 48
-4.
+Package pdftex.def Info: ./data/SvalbardImager6300A19.png used on input line 55
+6.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager6300A20.png, id=313, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager6300A20.png, id=325, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager6300A20.png Graphic file (type png)
 
 <use ./data/SvalbardImager6300A20.png>
-Package pdftex.def Info: ./data/SvalbardImager6300A20.png used on input line 48
-9.
+Package pdftex.def Info: ./data/SvalbardImager6300A20.png used on input line 56
+1.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager6300A21.png, id=314, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager6300A21.png, id=326, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager6300A21.png Graphic file (type png)
 
 <use ./data/SvalbardImager6300A21.png>
-Package pdftex.def Info: ./data/SvalbardImager6300A21.png used on input line 49
-4.
+Package pdftex.def Info: ./data/SvalbardImager6300A21.png used on input line 56
+6.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager6300A22.png, id=315, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager6300A22.png, id=327, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager6300A22.png Graphic file (type png)
 
 <use ./data/SvalbardImager6300A22.png>
-Package pdftex.def Info: ./data/SvalbardImager6300A22.png used on input line 49
-9.
+Package pdftex.def Info: ./data/SvalbardImager6300A22.png used on input line 57
+1.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
 
-<./data/SvalbardImager6300A23.png, id=316, 1606.0pt x 1003.75pt>
+<./data/SvalbardImager6300A23.png, id=328, 1606.0pt x 1003.75pt>
 File: ./data/SvalbardImager6300A23.png Graphic file (type png)
 
 <use ./data/SvalbardImager6300A23.png>
-Package pdftex.def Info: ./data/SvalbardImager6300A23.png used on input line 50
-4.
+Package pdftex.def Info: ./data/SvalbardImager6300A23.png used on input line 57
+6.
 (pdftex.def)             Requested size: 145.11053pt x 90.68587pt.
- [14 <./data/SvalbardImager6300A18.png> <./data/SvalbardImager6300A19.png> <./d
+ [15 <./data/SvalbardImager6300A18.png> <./data/SvalbardImager6300A19.png> <./d
 ata/SvalbardImager6300A20.png> <./data/SvalbardImager6300A21.png> <./data/Svalb
 ardImager6300A22.png> <./data/SvalbardImager6300A23.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 514.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 586.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 514--515
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
 [][]$\T1/cmtt/m/n/10 http : / / www . windows2universe . org / earth / Magnetos
 phere / tour / tour _ earth _
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 525.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 525.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 597.
+[16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 597.
  (./SpacePhysics_lukas.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 525.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 525.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 597.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 597.
 Package rerunfilecheck Info: File `SpacePhysics_lukas.out' has not changed.
-(rerunfilecheck)             Checksum: 6F1E80E2F51DB271715CB269881AB1D5;1142.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 525.
+(rerunfilecheck)             Checksum: 7913DF52AA06F359185A4060D3F5A2AA;1144.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 597.
  ) 
 Here is how much of TeX's memory you used:
- 10849 strings out of 493085
- 160076 string characters out of 6136917
+ 10851 strings out of 493085
+ 160095 string characters out of 6136917
  272839 words of memory out of 5000000
  14033 multiletter control sequences out of 15000+600000
- 78049 words of font info for 98 fonts, out of 8000000 for 9000
+ 78191 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,58p,1074b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,58p,1175b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1485,10 +1461,10 @@ c/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopi
 a/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on SpacePhysics_lukas.pdf (15 pages, 10011777 bytes).
+Output written on SpacePhysics_lukas.pdf (16 pages, 10069587 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
  360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
