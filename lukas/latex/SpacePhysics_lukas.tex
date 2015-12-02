@@ -209,7 +209,10 @@ If we assume a average velocity of the solar wind (see \ref{ACE Solarwindspeed} 
 from ACE to earth, we get a average time delay of 1 hour. (With values ranging from 55 minutes to 70 minutes.) From 18 o'clock to approximately 20:15 o'clock, 
 the IMF at ACEs' position is slightly positive. We can see that the $B_z$-component of the IMF at the position of ACE turns negative at approximately 20:15 o'clock. 
 (to $B_z\approx-12 n T$ ) From there on, the IMF stays almost universally negative until 23:45 o'clock. At 21:20 o'clock, the $B_z$ component turned for a short time 
-to relatively high positive values.   
+to relatively high positive values. This sudden turn of the IMF might lead to what we call polar arcs, which are aurora that moves from the very high latitudes then 
+southward towards the polar cap. Research suggest that these arcs might be somehow connected to auroral substorms, and that they are more prominent in times of northward 
+IMF \cite{paper3}. We do not know which type of polar arc this might be, as there are different types with specific characteristics, some of the different types are 
+reviewed in \cite{paper4}. 
 
 
 \subsection{Ground-based magnetometer\label{0_CHAPTER_GROUNDBASEDMag}}
@@ -248,7 +251,6 @@ show the time and the different horizontal lines are the magnetic field componen
 The first thing, which strikes the eye is that the magnetic field component is mostly constant from 18:00 o'clock until approximately 22:00 o'clock. At approximately 22:00 o'clock (depends on the latitude of the station), we can see fluctuation of the magnetic field component and then a sudden depression of the magnetic field component. The first minimum of the measured magnetic field can be seen between 22:30 and 23:00 o'clock.
 This is a hint to a sub storm.(see chapter \ref{discussion} ) We can also see a poleward moving of the depression especially for the 8 most northward stations (KEV to NAL). We can also see that the stations MEK to TAR don't measure a depression of the magnetic field. The stations KEV to OUJ measure the depression approximately at the same time. 
 
-\clearpage
 
 \subsection{SuperDARN \label{0_CHAPTER_SUPERDARN}}
 SuperDARN stands for  Super Dual Auroral Radar Network and this network consists of more than 30 low-power HF radars that look into Earth's upper atmosphere. 
@@ -336,10 +338,8 @@ field by 66 commercial satellites. The data from the magnetic field collected by
 we want to use AMPERE to determine the Birkeland currents. The Birkeland currents are field aligned currents. As described in the theory part, flowing electric currents 
 cause a curl of the magnetic field. If there are such FAC, we should also see a curl in the magnetic field measured by the satellites.
 We don't want to have a look at the explicit magnetic field data, but directly at the simulated current flow based on the measured magnetic field of AMPERE. We expect to 
-see two current regions. Region 1 currents flow in positive z-direction [GSM], while region 2 currents flow in the opposite, negative z-direction [GSM]. The configuration 
-of the electric fields set up by the movement of magnetic flux tubes across the polar cap is such that we expect region 1 \& 2 currents to lie inside each other like 
-concentric circles. Furthermore we also expect that on the dayside the region one current is on the higher latitude while the region 2 currents are on the lower. Vice 
-versa for the night side. We are interested to see how these currents change with respect to time.  
+see two current regions. Region 1 currents flow in positive z-direction, while region 2 currents flow in the opposite, negative z-direction. The configuration 
+of the electric fields set up by the movement of magnetic flux tubes across the polar cap is such that we expect region 1 \& 2 currents to lie inside each other like concentric circles. Furthermore we also expect that on the dayside the region one current is on the higher latitude while the region 2 currents are on the lower. Vice versa for the night side. We are interested to see how these currents change with respect to time.  
 
 \begin{figure}[h]
 \centering
@@ -347,19 +347,9 @@ versa for the night side. We are interested to see how these currents change wit
 \caption{this figure shows the measured magnetic field vectors by the satellites at 23 o'clock of the 6th January and the field align currents in blue and red}
 \label{AMPERE_explonation}
 \end{figure}
-In figure \ref{AMPERE_explonation}, we can see the measured magnetic field by the satellites visualized through little arrows. We convince ourselves that a curl in the 
-magnetic field can be related to a area with blue or red colour, which belong to field aligned currents. Red colour means that the field aligned currents flow away from 
-the surface of the earth and blue towards the earth. 
-
-
-With this pre-knowledge, we can now have a closer look at the data. From 18 o clock (see figure \ref{amp18}) until 20 o'clock(see figure \ref{amp20}), we don't see 
-significant currents. At 21 o'clock (see figure \ref{amp21}), we see a small increase of the currents indicated by a bit more intensive red and blue colour. However, 
-it is hard to derive a structure of the current-flow. At 22 o'clock (see figure \ref{amp22}), the current flow is a bit more intense than one hour before. We can now 
-see four different areas. An inner circle consisting of a current coming down from space to earth on the right half on the circle and of currents flowing into space 
-the left part of the circle. The outer circle consists of a current coming down from space to earth on the left half on the circle and of currents flowing into space 
-on the right part of the circle. This basic structure can also be seen at 23 o'clock and at 00 o'clock.(see figure \ref{amp23} and \ref{amp00}) 
-The currents reach their maximum at approximately 23 o'clock. From there on, the currents decrease. At 02 o'clock (see figure \ref{amp02}), we can say that there aren't
-any significant currents any more. 
+In figure \ref{AMPERE_explonation}, we can see the measured magnetic field by the satellites visualized through little arrows. We convince ourselves that a curl in the magnetic field can be related to a area with blue or red colour, which belong to field aligned currents. Red colour means that the field aligned currents flow away from the surface of the earth and blue towards the earth. 
+With this pre-knowledge, we can now have a closer look at the data. From 18 o clock (see figure \ref{amp18}) until 20 o'clock(see figure \ref{amp20}), we don't see significant currents. At 21 o'clock (see figure \ref{amp21}), we see a small increase of the currents indicated by a bit more intensive red and blue colour. However, it is hard to derive a structure of the current-flow. At 22 o'clock (see figure \ref{amp22}), the current flow is a bit more intense than one hour before. We can now see four different areas. An inner circle consisting of a current coming down from space to earth on the right half on the circle and of currents flowing into space the left part of the circle. The outer circle consists of a current coming down from space to earth on the left half on the circle and of currents flowing into space on the right part of the circle. This basic structure can also be seen at 23 o'clock and at 00 o'clock.(see figure \ref{amp23} and \ref{amp00}) 
+The currents reach their maximum at approximately 23 o'clock. From there on, the currents decrease. At 02 o'clock (see figure \ref{amp02}), we can say that there aren't any significant currents any more. 
 
 \begin{figure}[h]
 \centering
@@ -447,7 +437,8 @@ we can see that we have high intensity over all longitudes represented by the re
 In the figure \ref{SBI_5_overview}, we can see keograms from the whole period, with one hour intervals. In figure \ref{SBI_5_18} to \ref{SBI_5_21}, we don't see anything 
 special. The red area at below $20$\textdegree is associated with the polar oval. At 22:30, we can see the first movement of an area of high intensity of light from north to 
 south and at 22:45, we see a higher intensity of the light up to $76.5$\textdegree latitude. (see figure \ref{SBI_5_22})
-At 23 o'clock, we can see a lot of areas with high light-intensity. The longest time interval of high light intensity all over the latitudes is at approximately 23:30 o'clock and lasts about 5-10 minutes. At 23:45 o'clock, the intensity is low and at 23:55, higher intensities are again measured at high latitudes. 
+At 23 o'clock, we can see a lot of areas with high light-intensity. The longest time interval of high light intensity all over the latitudes is at approximately 23:30 o'clock and lasts about 5-10 minutes. At 23:45 o'clock, the intensity is low and at 23:55, higher intensities are again measured at high latitudes. In figure (\ref{SBI_5_22}) we 
+observe an interesting filament which could be a polar arc. We can see it moving from the very high latitudes at 22:30, then 15 minutes later it seem to merge with the auroral oval. At the same time as the polar arc merges with the auroral oval, over all intensity is on the rise, and shortly after we observe a very dynamic and active auroral display.  
 \begin{figure}[h]
 \centering
 \begin{subfigure}{0.3\textwidth}
@@ -494,34 +485,26 @@ In this section, we want to explain our observations. We will also try to connec
 It is also very interesting to see, whether the data from the different measurements can be interpreted in a sense-full, physical way.
 %ACE- discussion
 
-The Dungey cycle, auroral substorms and the twin-cell convection are all dependent on the IMF. Especially the sign of the $B_z$-component is really important because it 
-determines, whether magnetic reconnection occurs or not. (compare \ref{_CHAP_THEO_Dungey cycle}) Therefore, it makes sense to look first at the data from ACE. 
-If we assume that the solar wind needs on average 1 hour to travel from ACE to earth, we can say that the $B_z$-component is positive from 19 o'clock to 21:15 o'clock 
-at earth's position. At approximately 21:15, the anti-parallel magnetic field should reach Earth. While the $B_z$ component is negative, we expect that magnetic 
-reconnection on day side kicks in. When magnetic reconnection on day side occurs, open magnetic flux is added to the polar cap. If magnetic reconnection on the night side doesn't take place, the polar cap should grow. Southward orientation of the IMF is needed in order enter the growth phase of a substorm. On average, we observed a 
-southward orientation of the magnetic field until 01:45 o'clock of the 7th of January 2011. However, we can see a sudden peak in the $B_z$ component at 22:20 o'clock at 
+The Dungey cycle, auroral substorms and the twin-cell convection are all dependent on the IMF. Especially the sign of the $B_z$-component is really important because it determines, whether magnetic reconnection occurs or not. (compare \ref{_CHAP_THEO_Dungey cycle}) Therefore, it makes sense to look first at the data from ACE. 
+If we assume that the solar wind needs on average 1 hour to travel from ACE to earth, we can say that the $B_z$-component is positive from 19 o'clock to 21:15 o'clock at earth's position. At approximately 21:15,  the negative turn of the IMF reaches the Earth. While the $B_z$ component is negative, we expect that magnetic reconnection on day side happens. When magnetic reconnection on day side occurs, open magnetic flux is added to the polar cap. If magnetic reconnection on the night side doesn't take place, the polar cap should grow. We assume that the rate of magnetic reconnection at far earth neutral line is low. 
+Southward orientation of the IMF is needed in order to enter the growth phase of a substorm. During the growth phase, magnetic energy is stored in the tail. This energy can later be released through a substorm. On average, we observed a southward orientation of the magnetic field until 01:45 o'clock of the 7th of January 2011. However, we can see a sudden peak in the $B_z$ component at 22:20 o'clock at 
 Earth. 
 %Groundbasedmagnetometer- discussion
 
-Next, we want to look for signs of a substorm in process. A good method to detect substorms are to look at the data from the ground-based-magnetometers. A substorm 
-normally produce westward electro-jets, which lead to a magnetic field according to Amperes law. In the end, if a substorm kicks in, this leads to a depression of the south-north component of the magnetic field measured on the ground. A eastward eletrojet would lead to a increase of the south-north component of the magnetic field measured on the ground. We now have a look at the data from \ref{0_CHAPTER_AMPERE}. As described there, we can see a depression of the south-north component of the magnetic field at approximately 22 o'clock. The depression reaches a minimum at approximately 22:30 o'clock. (depending on the specific measuring station) This depression is a strong hint to a substorm happening in between 22 o'clock and 23 o'clock. 
-At the stations more southward, you can see that there is first a increase of the south-nor-magnetic field and than a depression. The most likely interpretation is that there is a local current flowing eastward, which leads to an increase of the magnetic field. The reasons for that can be various. Depending on the station, eastward electrojets must occur. This depends also on the shape of the twin cell convection at the specific time. An important parameter to look at would be the $B_y$-component of the IMF at this time because this determines the specific shape of the twin cell convection.
+Next, we want to look for signs of a substorm. A good method to detect substorms is to look at the data from the ground-based-magnetometers. A substorm 
+normally leads to westward electro-jets, which lead to a magnetic field according to Amperes law. In the end, if a substorm kicks in, this leads to a depression of the south-north component of the magnetic field measured on the ground. A eastward eletrojet would lead to a increase of the south-north component of the magnetic field measured on the ground. We now have a look at the data from \ref{0_CHAPTER_AMPERE}. As described there, we can see a depression of the south-north component of the magnetic field at approximately 22 o'clock. The depression reaches a minimum at approximately 22:30 o'clock. (depending on the specific measuring station) This depression is a strong hint to a substorm happening in between 22 o'clock and 23 o'clock. 
+At the stations more southward, you can see that there is first a increase of the south-nor-magnetic field and than a depression. The most likely interpretation is that there is a local current flowing eastward, which leads to an increase of the magnetic field. The reasons for that can be various. Depending on the station, eastward electrojets can occur. This depends also on the shape of the twin cell convection at the specific time. An important parameter to look at would be the $B_y$-component of the IMF at this time because this determines the specific shape of the twin cell convection. For further research on this, you can have a look in paper \cite{paper2}.
 % KOMENTAR: Not finished yet
 
 % Superdarn
-Furthermore, we want to have a look at the data from SuperDARN. (see chapter \ref{0_CHAPTER_SUPERDARN}) We notice, that the shape of the electric potential fit the theoretical predictions. We can see two cells, which can be characterized through a region with negative electric potential (blue) and a region with positive electric 
-potential (red). In the region with negative electric potential, the charged particles move clockwise and in the positive region the particles move anti-clockwise. 
-Also the orientation of the two cells fit. The direction to the sun is in the figures \ref{Super_overview} at 12 o'clock. 
-(referring to the hours of a day which, letting the Earth rotate so the system is relative to the sun.) The twin cells should be separated by a line from approximately  6 o'clock to 12 o 'clock. (directions) This depends also on the components of the IMF. The orientation of the twin cells seems to be right.  
+Furthermore, we want to have a look at the data from SuperDARN. (see chapter \ref{0_CHAPTER_SUPERDARN}) We notice, that the shape of the electric potential fits the theoretical predictions. We can see two cells, which can be characterized through a region with negative electric potential (blue) and a region with positive electric potential (red). In the region with negative electric potential, the charged particles move clockwise and in the positive region the particles move anti-clockwise. 
+Also the orientation of the two cells fit. The direction to the sun is in the figures \ref{Super_overview} at 12 o'clock. (directions)
+The twin cells should be separated by a line from approximately  0 o'clock to 12 o 'clock. (directions) This depends also on the components of the IMF. The orientation of the twin cells seems to be right.  
 
 Looking at the time development of the electric field, we can now connect the increase of the electric potential from 21 to 22 o'clock with other physical phenomena. 
-From section \ref{0_CHAPTER_ACE}, we know that the negative turn of the $B_z$ component of the IMF is at about 21:45 o'clock on earth. A southward IMF results in 
-magnetic reconnection on day side. Magnetic reconnection on the day side is directly coupled to the twin-cell convection pattern. The twin cell convection should increase,
-which is exactly what we can see in the data. From the Ground-based magnetometer, we got a strong  hint of an auroral substorm kicking in between 22:00 o'clock and 
+From section \ref{0_CHAPTER_ACE}, we know that the negative turn of the $B_z$ component of the IMF is at about 21:45 o'clock on earth. A southward IMF results in magnetic reconnection on day side. Magnetic reconnection on the day side is directly coupled to the twin-cell convection pattern. The twin cell convection should increase, which is exactly what we can see in the data. From the Ground-based magnetometer, we got a strong  hint of an auroral substorm kicking in between 22:00 o'clock and 
 23:00 o'clock. Sub storms decrease the total magnetic flux in the polar cap. We can see that from 22 o 'clock to 23 o'clock, that $\phi_{pc}$ stays approximately constant.
 All in all, we can say that the theory matches the experimental data concerning this measurement. 
-%KOMENTAR: Not finished yet
-
 % Ampere discussion
 We want now to discuss the data from the Measurement AMPERE.(observations described in chapter \ref{0_CHAPTER_AMPERE}) The  curl of the magnetic field measured parallel 
 to the surface of the earth determines the current flow perpendicular to the surface to the earth. The field aligned currents are coupled to the Dungey cycle. To be more precise, The hall currents are driven by the dungey cycle. The hall currents lead to a electric field at a specific altitude. Pedersen currents (mostly ions) follow this electric field. The pederson currents are not source free. At the spots, where it come to a accumulation of charge, we expect field aligned currents to close this current system. Depending on the sign of the accumulated charge, the field aligned currents flow into space or in the direction of the earth's surface. 
@@ -586,12 +569,13 @@ This can be interpreted as several substorms happening in pulses.
 \bibitem[1]{Link1} \url{http://www.windows2universe.org/earth/Magnetosphere/tour/tour_earth_magnetosphere_07.html&edu=high}, 27.11.2015
 \bibitem[2]{Link2} \url{http://www.nasa.gov/mission_pages/sunearth/news/ace-15th.html}, 27.11.2015
 \bibitem[3]{Buch} Gerd W. Prölss: Physics of the Earth's Space Environment (An Introduction).Bonn  dec 2003 
-\bibitem[4]{paper1} Sandholt, P.E., C.J. Farrugia, J. Moen, Ø. Noraberg, B. Lybekk, T. Sten, and T.L. Hansen, A classification
-of dayside auroral forms and activities as a function of IMF orientation, J. Geophys. Res.,103, 23,325-
+\bibitem[4]{paper1} Sandholt, P.E., C.J. Farrugia, J. Moen, Ø. Noraberg, B. Lybekk, T. Sten, and T.L. Hansen, A classification of dayside auroral forms and activities as a function of IMF orientation, J. Geophys. Res.,103, 23,325-
 23,345, 1998.
-\bibitem[5]{paper2} Ruohoniemi, J. M., R. A. Greenwald, Dependencies of high-latitude plasma convection: Consideration
-of interplanetary magnetic field, seasonal and universal time factors in statistical patterns, J. Geophys.
+\bibitem[5]{paper2} Ruohoniemi, J. M., R. A. Greenwald, Dependencies of high-latitude plasma convection: Consideration of interplanetary magnetic field, seasonal and universal time factors in statistical patterns, J. Geophys.
 Res., 110, A09204, doi:10.1029/2004JA010815, 2005.
 \bibitem[6]{Buch2} Kievelson and Russel, Introduction to Space Physics, Chapters 9, 13, and 14
+\bibitem[7]{paper3} J.S. Murphree, J.B. Austin, D.J. Hearn, L.L. Cogger, R.D. Elphinstone, J. Woch Satellite observations of polar arcs, J. Atmospheric and Terrestrial Physics
+Volume 56, Issue 2, February 1994, Pages 265–284
+\bibitem[8]{paper4}     L. Zhu, R.W. Schunk, J.J. Sojka, Polar cap arcs: a review, Revised 15 July 1996, Accepted 2 August 1996, Available online 5 June 1998, Page 8
 \end{thebibliography}
 \end{document}
