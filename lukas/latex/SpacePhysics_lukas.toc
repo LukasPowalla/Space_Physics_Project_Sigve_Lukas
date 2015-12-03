@@ -12,8 +12,8 @@
 \contentsline {subsection}{\numberline {2.1}ACE }{7}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Ground-based magnetometer}{8}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}SuperDARN }{9}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}AMPERE }{10}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Svalbard All-Sky Imager }{11}{subsection.2.5}
-\contentsline {section}{\numberline {3}Discussion }{13}{section.3}
-\contentsline {section}{\numberline {4}Conclusion}{14}{section.4}
-\contentsline {section}{\numberline {5}Additional plots}{15}{section.5}
+\contentsline {subsection}{\numberline {2.4}AMPERE }{11}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Svalbard All-Sky Imager }{12}{subsection.2.5}
+\contentsline {section}{\numberline {3}Discussion }{14}{section.3}
+\contentsline {section}{\numberline {4}Conclusion}{15}{section.4}
+\contentsline {section}{\numberline {5}Additional plots}{16}{section.5}
